@@ -4,7 +4,8 @@ import React from 'react';
 
 // Components
 import Header from './Components/Header';
-import Main from './Components/Main';
+import MainContainer from './Components/Home/MainContainer';
+import Main from './Components/Home/MainContainer';
 
 export default function App() {
   const baseCss = 'container mx-auto';
@@ -13,7 +14,7 @@ export default function App() {
   return (
     <div class={`${baseCss} px-2 py-4 ${smUpCss}`}>
       <Header />
-      <Main />
+      <MainContainer />
     </div>
   );
 }

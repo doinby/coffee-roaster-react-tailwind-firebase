@@ -35,7 +35,6 @@ export default function Header() {
         <div className='hamburger-menu'>
           <img src={hamburgerMenu} alt='hamburger-menu' />
         </div>
-        {/* src/assets/shared/mobile/icon-hamburger.svg */}
       </div>
     </header>
   );
