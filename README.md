@@ -16,7 +16,7 @@ This is a solution to the [Coffeeroasters subscription site challenge on Fronten
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+<!-- **Note: Delete this note and update the table of contents based on what sections you keep.** -->
 
 ## Overview
 
@@ -28,7 +28,7 @@ Users should be able to:
 - See hover states for all interactive elements throughout the site
 - Make selections to create a coffee subscription and see an order summary modal of their choices
 
-### Screenshot
+<!-- ### Screenshot
 
 ![](./screenshot.jpg)
 
@@ -38,27 +38,25 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**a -->
 
-### Links
+<!-- ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- CSS Flexbox
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [React](https://reactjs.org/) - Front-end JS Library
+- [React Router] (https://reactrouter.com/) - Front-end JS Library
+- [Firebase] (https://firebase.google.com) - Back-end framework
+- [TailwindCss](https://tailwindcss.com/) - CSS Framework
+- [Sass] (https://sass-lang.com/) - CSS Preprocessor
 
 ### What I learned
 
