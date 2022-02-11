@@ -1,10 +1,11 @@
 import React from 'react';
 
-export default function CollectionArticle({title, description}) {
+export default function CollectionArticle({img, title, description}) {
   return (
-    <article>
-      <h3>{title}</h3>
-      <p>{description}</p>
+    <article class='flex flex-col items-center'>
+      <img src={img} alt={title} class='max-h-32' />
+      <h2 class='text-3xl'>{title}</h2>
+      <p class='max-w-[80%]'>{description}</p>
     </article>
   );
 }

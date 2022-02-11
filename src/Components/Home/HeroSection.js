@@ -8,7 +8,7 @@ export default function HeroSection({id}) {
         class='flex flex-col justify-center items-center gap-8 px-4 h-[500px] rounded-lg bg-hero-default text-center text-white'
       >
         <h2 class='text-4xl'>Great coffee made simple.</h2>
-        <p>
+        <p class='max-w-[80%]'>
           Start your mornings with the world’s best coffees. Try our expertly
           curated artisan coffees from our best roasters delivered directly to
           your door, at your schedule.

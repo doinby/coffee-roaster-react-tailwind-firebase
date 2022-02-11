@@ -7,7 +7,7 @@ export default function Header() {
     <header>
       <div
         className='navbar sm-up'
-        class='hidden sm:flex justify-between align-baseline'
+        class='hidden sm:flex justify-between items-center'
       >
         <div className='logo'>
           <h1 class='text-2xl font-bold'>coffeeroasters</h1>
@@ -32,7 +32,7 @@ export default function Header() {
         <div className='logo'>
           <h1 class='text-lg font-bold'>coffeeroasters</h1>
         </div>
-        <div className='hamburger-menu'>
+        <div className='hamburger-menu' class='self-center'>
           <img src={hamburgerMenu} alt='hamburger-menu' />
         </div>
       </div>
