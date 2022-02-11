@@ -4,10 +4,10 @@ import React from 'react';
 import CollectionArticle from './CollectionArticle';
 
 // Assets
-import granEspressoImg from '../../../src/assets/home/desktop/image-gran-espresso.png';
-import planaltoImg from '../../../src/assets/home/desktop/image-planalto.png';
-import piccolloImg from '../../../src/assets/home/desktop/image-piccollo.png';
-import dancheImg from '../../../src/assets/home/desktop/image-danche.png';
+import granEspressoImg from '../../../../src/assets/home/desktop/image-gran-espresso.png';
+import planaltoImg from '../../../../src/assets/home/desktop/image-planalto.png';
+import piccolloImg from '../../../../src/assets/home/desktop/image-piccollo.png';
+import dancheImg from '../../../../src/assets/home/desktop/image-danche.png';
 
 export default function CollectionSection({id}) {
   return (
