@@ -53,10 +53,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - Front-end JS Library
-- [React Router] (https://reactrouter.com/) - Front-end JS Library
-- [Firebase] (https://firebase.google.com) - Back-end framework
+- [React Router](https://reactrouter.com/) - Front-end JS Library
+- [Firebase](https://firebase.google.com) - Back-end framework
 - [TailwindCss](https://tailwindcss.com/) - CSS Framework
-- [Sass] (https://sass-lang.com/) - CSS Preprocessor
+- [Sass](https://sass-lang.com/) - CSS Preprocessor
 
 ### What I learned
 
