@@ -12,7 +12,7 @@ export default function WhyUsSection({id}) {
   return (
     <section
       id={id}
-      class='grid grid-cols-1 grid-rows-3 items-center gap-12 relative py-16 rounded-2xl bg-slate-800/95 text-white'
+      class='grid grid-cols-1 grid-rows-5 items-center gap-12 relative py-16 rounded-2xl bg-slate-800/95 text-white'
     >
       <div className='description' class='flex flex-col gap-8 items-center'>
         <h2 class='text-2xl'>Why choose us?</h2>

@@ -4,6 +4,7 @@ import React from 'react';
 import HeroSection from './HeroSection';
 import CollectionSection from './CollectionSection/CollectionSection';
 import WhyUsSection from './WhyUsSection/WhyUsSection';
+import HowSection from './HowSection/HowSection';
 
 export default function MainContainer() {
   return (
@@ -11,6 +12,7 @@ export default function MainContainer() {
       <HeroSection id='hero' />
       <CollectionSection id='collection' />
       <WhyUsSection id='why-us' />
+      <HowSection id='how-it-works' />
     </main>
   );
 }
