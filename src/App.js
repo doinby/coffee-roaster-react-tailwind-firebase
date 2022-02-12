@@ -1,11 +1,14 @@
 import React from 'react';
 
+import {Routes, Route} from 'react-router-dom';
+
+// Pages
+import Home from './Pages/Home';
+import About from './Pages/About';
+
 // Components
 import Header from './Components/Home/Header/Header';
 import Footer from './Components/Home/Footer/Footer';
-import MainContainer from './Components/Home/MainContainer';
-
-// Assets
 
 export default function App() {
   const baseCss = 'container mx-auto';
@@ -14,7 +17,10 @@ export default function App() {
   return (
     <div class={`${baseCss} flex flex-col gap-4 px-4 py-8 ${smUpCss}`}>
       <Header />
-      <MainContainer />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+      </Routes>
       <Footer />
     </div>
   );

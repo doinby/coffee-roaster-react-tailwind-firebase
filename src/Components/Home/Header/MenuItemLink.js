@@ -1,11 +1,10 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
-export default function MenuItemLink({content, buttonCss}) {
+export default function MenuItemLink({linkTo, content, buttonCss}) {
   return (
-    <li>
-      <button role='link' class={`${buttonCss} uppercase`}>
-        {content}
-      </button>
-    </li>
+    <Link to={linkTo} class={`${buttonCss} uppercase`}>
+      {content}
+    </Link>
   );
 }
