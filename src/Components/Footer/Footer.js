@@ -5,9 +5,9 @@ import MenuItemLink from './MenuItemLink';
 import SocialMediaItem from './SocialMediaItem';
 
 // Assets
-import facebookIcon from '../../../../src/assets/shared/desktop/icon-facebook.svg';
-import instagramIcon from '../../../../src/assets/shared/desktop/icon-instagram.svg';
-import twitterIcon from '../../../../src/assets/shared/desktop/icon-twitter.svg';
+import facebookIcon from '../../../src/assets/shared/desktop/icon-facebook.svg';
+import instagramIcon from '../../../src/assets/shared/desktop/icon-instagram.svg';
+import twitterIcon from '../../../src/assets/shared/desktop/icon-twitter.svg';
 
 export default function Footer() {
   return (

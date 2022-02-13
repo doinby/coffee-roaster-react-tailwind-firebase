@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 
-import hamburgerMenu from '../../../../src/assets/shared/mobile/icon-hamburger.svg';
+import hamburgerMenu from '../../../src/assets/shared/mobile/icon-hamburger.svg';
 import MenuItemLink from './MenuItemLink';
 
 export default function Header() {

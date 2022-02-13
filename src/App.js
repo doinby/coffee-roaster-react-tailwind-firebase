@@ -7,8 +7,8 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 
 // Components
-import Header from './Components/Home/Header/Header';
-import Footer from './Components/Home/Footer/Footer';
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
 
 export default function App() {
   const baseCss = 'container mx-auto';
