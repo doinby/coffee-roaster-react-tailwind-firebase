@@ -2,10 +2,12 @@ import React from 'react';
 
 // Components
 import HeroSection from '../../src/Components/HeroSection.js';
+import CommitmentSection from '../Components/About/CommitmentSection.js';
+import QualitySection from '../Components/About/QualitySection.js';
 
 export default function About() {
   return (
-    <div id='about'>
+    <main id='about' class='flex flex-col gap-32 my-4'>
       <HeroSection
         title='About us'
         description='Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of 
@@ -14,6 +16,8 @@ export default function About() {
         background='about-hero-default'
         isBtnHidden='true'
       />
-    </div>
+      <CommitmentSection />
+      <QualitySection />
+    </main>
   );
 }
