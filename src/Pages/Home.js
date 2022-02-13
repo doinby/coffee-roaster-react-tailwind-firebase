@@ -15,6 +15,7 @@ export default function Home() {
         description='Start your mornings with the world’s best coffees. Try our expertly
         curated artisan coffees from our best roasters delivered directly to
         your door, at your schedule.'
+        background='home-hero-default'
         isBtnHidden={false}
       />
       <CollectionSection id='collection' />

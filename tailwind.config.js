@@ -3,8 +3,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-default':
+        'home-hero-default':
           "url('../src/assets/home/mobile/image-hero-coffeepress.jpg')",
+        'about-hero-default':
+          "url('../src/assets/about/mobile/image-hero-whitecup.jpg')",
       },
     },
   },
