@@ -8,12 +8,11 @@ export default function HeroSection({
   isBtnHidden,
 }) {
   const renderBtn = isBtnHidden ? 'hidden' : 'block';
-  const getBackground = background ? background : 'black';
 
   return (
     <section
       id={id}
-      class={`flex flex-col justify-center items-center gap-8 px-4 py-28 rounded-lg bg-${getBackground} bg-no-repeat bg-cover bg-center text-center text-white`}
+      class={`flex flex-col justify-center items-center gap-8 px-4 py-28 rounded-lg ${background} bg-no-repeat bg-cover bg-center text-center text-white`}
     >
       <h2 class='text-4xl'>{title}</h2>
       <p class='max-w-[80%]'>{description}</p>

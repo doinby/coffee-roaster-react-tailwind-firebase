@@ -7,7 +7,6 @@ module.exports = {
           "url('../src/assets/home/mobile/image-hero-coffeepress.jpg')",
         'about-hero-default':
           "url('../src/assets/about/mobile/image-hero-whitecup.jpg')",
-        // src/assets/about/mobile/bg-quality.png
         'about-quality-default':
           "url('../src/assets/about/mobile/bg-quality.png')",
       },
