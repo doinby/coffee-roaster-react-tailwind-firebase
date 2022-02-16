@@ -11,8 +11,8 @@ import dancheImg from '../../../../src/assets/home/desktop/image-danche.png';
 
 export default function CollectionSection({id}) {
   return (
-    <section id={id} class='flex flex-col gap-12 text-center'>
-      <h2>Our Collection</h2>
+    <section id={id} class='text-center'>
+      <h1 class='m-0 font-serif lowercase'>Our Collection</h1>
       <CollectionArticle
         img={granEspressoImg}
         title='Gran Espresso'

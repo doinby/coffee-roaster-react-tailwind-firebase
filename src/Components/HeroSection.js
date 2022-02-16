@@ -13,7 +13,7 @@ export default function HeroSection({
   return (
     <section
       id={id}
-      class={`rounded-lg ${background} bg-no-repeat bg-cover bg-center text-white`}
+      class={`gap-10 py-28 rounded-lg ${background} bg-no-repeat bg-cover bg-center text-white text-center`}
     >
       <h1 class='m-0 font-serif text-white'>{title}</h1>
       <p class='m-0 text-white/80'>{description}</p>

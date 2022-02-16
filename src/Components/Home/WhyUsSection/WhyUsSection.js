@@ -12,11 +12,11 @@ export default function WhyUsSection({id}) {
   return (
     <section
       id={id}
-      class='grid grid-cols-1 grid-rows-5 items-center gap-12 relative py-16 rounded-2xl bg-dark-grey text-white'
+      class='relative py-28 rounded-2xl bg-dark-grey text-white text-center'
     >
       <div className='description' class='flex flex-col gap-8 items-center'>
-        <h2>Why choose us?</h2>
-        <p>
+        <h1 class='m-0 font-serif text-[2em] text-white'>Why choose us?</h1>
+        <p class='m-0 text-white/80'>
           A large part of our role is choosing which particular coffees will be
           featured in our range. This means working closely with the best coffee
           growers to give you a more impactful experience on every level.
@@ -25,7 +25,7 @@ export default function WhyUsSection({id}) {
 
       <div
         className='feature-card-container'
-        class='row-start-2 flex flex-col gap-8 absolute top-0 px-8 '
+        class='row-start-2 flex flex-col gap-8 top-0 px-8 '
       >
         <FeatureCard
           img={coffeeBeanImg}
