@@ -1,7 +1,31 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    fontFamily: {
+      sans: ['Barlow', 'sans-serif'],
+      serif: ['Fraunces', 'serif'],
+    },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      white: '#FEFCF7',
+      black: '#333D4B',
+      grey: '#83888F',
+      'dark-cyan': '#0E8784',
+      'dark-grey': '#333D4B',
+      'pale-orange': '#FDD6BA',
+      'light-cream': '#FEFCF7',
+    },
     extend: {
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            // color: theme('colors.gray.800'),
+            // ...
+          },
+        },
+      }),
+
       backgroundImage: {
         'home-hero-default':
           "url('../src/assets/home/mobile/image-hero-coffeepress.jpg')",
@@ -12,5 +36,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography', require('@tailwindcss/forms'))],
 };
