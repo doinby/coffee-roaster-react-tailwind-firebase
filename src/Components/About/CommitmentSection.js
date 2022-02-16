@@ -6,7 +6,7 @@ export default function CommitmentSection() {
   return (
     <section class='flex flex-col gap-8 items-center'>
       <img src={commitmentImg} alt='Our Commitment' />
-      <h3 class='text-3xl'>Our commitment</h3>
+      <h3>Our commitment</h3>
       <p>
         We’re built on a simple mission and a commitment to doing good along the
         way. We want to make it easy for you to discover and brew the world’s

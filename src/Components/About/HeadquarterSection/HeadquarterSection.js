@@ -11,7 +11,7 @@ import australiaImg from '../../../../src/assets/about/desktop/illustration-aust
 export default function HeadquarterSection() {
   return (
     <section class='flex flex-col gap-16 items-center text-center'>
-      <h3 class='text-2xl'>Our Headquarters</h3>
+      <h3>Our Headquarters</h3>
       <HeadquarterArticle
         imgPath={ukImg}
         location='United Kingdom'

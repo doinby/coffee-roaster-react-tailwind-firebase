@@ -10,6 +10,9 @@ import About from './Pages/About';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 
+// Stylesheet
+import '../src/index.scss';
+
 export default function App() {
   const baseCss = 'container mx-auto';
   const smUpCss = 'sm:px-4 sm:py-6';

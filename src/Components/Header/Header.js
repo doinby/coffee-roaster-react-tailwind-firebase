@@ -5,6 +5,7 @@ import hamburgerMenu from '../../../src/assets/shared/mobile/icon-hamburger.svg'
 import MenuItemLink from './MenuItemLink';
 
 export default function Header() {
+  const logoTxtCss = 'font-serif text-2xl';
   const [dropdownState, setDropdownState] = useState('hidden');
 
   function toggleHamburger(e) {
@@ -21,7 +22,7 @@ export default function Header() {
         class='hidden sm:flex justify-between items-center'
       >
         <div className='logo'>
-          <h1 class='text-2xl font-bold'>coffeeroasters</h1>
+          <h1 class={logoTxtCss}>coffeeroasters</h1>
         </div>
         <nav className='menu-list' class='flex gap-4 '>
           <Link to='/' class='uppercase'>
@@ -41,7 +42,7 @@ export default function Header() {
         class='sm:hidden flex justify-between align-baseline'
       >
         <div className='logo'>
-          <h1 class='text-lg font-bold'>coffeeroasters</h1>
+          <h1 class={logoTxtCss}>coffeeroasters</h1>
         </div>
         <div className='dropdown-menu-container' class='self-center relative'>
           <button className='hamburger-btn' onClick={toggleHamburger}>
@@ -49,7 +50,7 @@ export default function Header() {
           </button>
           <nav
             className='dropdown-menu'
-            class={`${dropdownState} flex-col gap-4 items-end absolute right-0 w-44 px-4 py-8 rounded-md bg-slate-800/95 text-white drop-shadow-xl`}
+            class={`${dropdownState} flex-col gap-4 items-end absolute right-0 w-44 px-4 py-8 rounded-md bg-dark-grey text-white drop-shadow-xl`}
           >
             <MenuItemLink linkTo='/' content='Home' />
             <MenuItemLink linkTo='/about' content='About us' />

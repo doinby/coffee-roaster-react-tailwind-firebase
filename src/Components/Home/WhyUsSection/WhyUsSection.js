@@ -12,11 +12,11 @@ export default function WhyUsSection({id}) {
   return (
     <section
       id={id}
-      class='grid grid-cols-1 grid-rows-5 items-center gap-12 relative py-16 rounded-2xl bg-slate-800/95 text-white'
+      class='grid grid-cols-1 grid-rows-5 items-center gap-12 relative py-16 rounded-2xl bg-dark-grey text-white'
     >
       <div className='description' class='flex flex-col gap-8 items-center'>
-        <h2 class='text-2xl'>Why choose us?</h2>
-        <p class='max-w-[80%]'>
+        <h2>Why choose us?</h2>
+        <p>
           A large part of our role is choosing which particular coffees will be
           featured in our range. This means working closely with the best coffee
           growers to give you a more impactful experience on every level.

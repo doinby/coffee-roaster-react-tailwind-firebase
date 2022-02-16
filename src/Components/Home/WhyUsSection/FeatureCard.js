@@ -5,10 +5,10 @@ export default function FeatureCard({id, img, title, description}) {
     <div
       id={id}
       className='feature-card'
-      class='flex flex-col items-center gap-4 py-12 px-6 rounded-lg bg-teal-600 text-white'
+      class='flex flex-col items-center gap-4 py-12 px-6 rounded-lg bg-dark-cyan text-white'
     >
       <img src={img} alt={title} />
-      <h3 class='text-2xl'>{title}</h3>
+      <h3>{title}</h3>
       <p>{description}</p>
     </div>
   );

@@ -12,7 +12,7 @@ export default function QualitySection() {
         alt='Uncompromising quality'
       />
       <div class='row-start-2 flex flex-col gap-8 items-center text-center'>
-        <h3 class='text-2xl'>Uncompromising quality</h3>
+        <h3>Uncompromising quality</h3>
         <p>
           Although we work with growers who pay close attention to all stages of
           harvest and processing, we employ, on our end, a rigorous quality
