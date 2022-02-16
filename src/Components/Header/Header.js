@@ -1,11 +1,14 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 
-import hamburgerMenu from '../../../src/assets/shared/mobile/icon-hamburger.svg';
+// Components
 import MenuItemLink from './MenuItemLink';
 
+// Assets
+import logoImg from '../../../src/assets/shared/desktop/logo.svg';
+import hamburgerImg from '../../../src/assets/shared/mobile/icon-hamburger.svg';
+
 export default function Header() {
-  const logoTxtCss = 'font-serif text-2xl';
   const [dropdownState, setDropdownState] = useState('hidden');
 
   function toggleHamburger(e) {
@@ -16,48 +19,34 @@ export default function Header() {
   }
 
   return (
-    <header>
-      <div
-        className='navbar sm-up'
-        class='hidden sm:flex justify-between items-center'
-      >
-        <div className='logo'>
-          <h1 class={logoTxtCss}>coffeeroasters</h1>
-        </div>
-        <nav className='menu-list' class='flex gap-4 '>
-          <Link to='/' class='uppercase'>
-            Home
-          </Link>
-          <Link to='/About' class='uppercase'>
-            About us
-          </Link>
-          <Link to='/createYourPlan' class='uppercase'>
-            Create your plan
-          </Link>
-        </nav>
-      </div>
+    <header class='relative flex flex-row justify-between'>
+      {/* Logo */}
 
-      <div
-        className='navbar default'
-        class='sm:hidden flex justify-between align-baseline'
+      <Link id='logo' to='/' class='flex'>
+        <button role='link'>
+          <img src={logoImg} class='h-5' alt="Coffee Roasters' Logo" />
+        </button>
+      </Link>
+
+      {/* Default Mobile Screen */}
+      <button class='p-4 pr-0 sm:hidden' onClick={toggleHamburger}>
+        <img src={hamburgerImg} class='h-4' alt='Hamburger Menu' />
+      </button>
+      <nav
+        id='for-mobile dropdown-menu'
+        class={`${dropdownState} absolute right-0 top-12 flex-col gap-8 px-4 py-8 bg-dark-grey text-white sm:hidden`}
       >
-        <div className='logo'>
-          <h1 class={logoTxtCss}>coffeeroasters</h1>
-        </div>
-        <div className='dropdown-menu-container' class='self-center relative'>
-          <button className='hamburger-btn' onClick={toggleHamburger}>
-            <img src={hamburgerMenu} alt='hamburger-menu' />
-          </button>
-          <nav
-            className='dropdown-menu'
-            class={`${dropdownState} flex-col gap-4 items-end absolute right-0 w-44 px-4 py-8 rounded-md bg-dark-grey text-white drop-shadow-xl`}
-          >
-            <MenuItemLink linkTo='/' content='Home' />
-            <MenuItemLink linkTo='/about' content='About us' />
-            <MenuItemLink linkTo='/createYourPlan' content='Create your plan' />
-          </nav>
-        </div>
-      </div>
+        <MenuItemLink linkTo='/' content='Home' />
+        <MenuItemLink linkTo='/about' content='About us' />
+        <MenuItemLink linkTo='/createYourPlan' content='Create your plan' />
+      </nav>
+
+      {/* Ipad Screen & Up */}
+      <nav id='for-non-mobile' class='hidden sm:flex sm:gap-4 md:gap-8'>
+        <MenuItemLink linkTo='/' content='Home' />
+        <MenuItemLink linkTo='/about' content='About us' />
+        <MenuItemLink linkTo='/createYourPlan' content='Create your plan' />
+      </nav>
     </header>
   );
 }
