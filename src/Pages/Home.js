@@ -8,7 +8,7 @@ import HowSection from '../Components/Home/HowSection/HowSection';
 
 export default function Home() {
   return (
-    <main class='flex flex-col gap-32 my-4'>
+    <main>
       <HeroSection
         id='hero'
         title='Great coffee made simple.'
@@ -17,6 +17,7 @@ export default function Home() {
         your door, at your schedule.'
         background='bg-home-hero-default'
         isBtnHidden={false}
+        btnContent='Create your plan'
       />
       <CollectionSection id='collection' />
       <WhyUsSection id='why-us' />

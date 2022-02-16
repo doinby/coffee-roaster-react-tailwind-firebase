@@ -6,18 +6,21 @@ export default function HeroSection({
   description,
   background,
   isBtnHidden,
+  btnContent,
 }) {
   const renderBtn = isBtnHidden ? 'hidden' : 'block';
 
   return (
     <section
       id={id}
-      class={`flex flex-col justify-center items-center gap-8 px-4 py-28 rounded-lg ${background} bg-no-repeat bg-cover bg-center text-center text-white`}
+      class={`rounded-lg ${background} bg-no-repeat bg-cover bg-center text-white`}
     >
-      <h2>{title}</h2>
-      <p>{description}</p>
-      <button class={`${renderBtn} py-2 px-4 rounded-md bg-dark-cyan`}>
-        Create your plan
+      <h1 class='m-0 font-serif text-white'>{title}</h1>
+      <p class='m-0 text-white/80'>{description}</p>
+      <button
+        class={`${renderBtn} py-4 px-8 rounded-md bg-dark-cyan font-serif text-lg`}
+      >
+        {btnContent}
       </button>
     </section>
   );
