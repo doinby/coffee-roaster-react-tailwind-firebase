@@ -19,7 +19,7 @@ export default function About() {
       />
       <CommitmentSection />
       <QualitySection />
-      <HeadquarterSection />
+      <HeadquarterSection id='headquarters' />
     </main>
   );
 }

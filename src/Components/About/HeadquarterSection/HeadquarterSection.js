@@ -8,10 +8,10 @@ import ukImg from '../../../../src/assets/about/desktop/illustration-uk.svg';
 import canadaImg from '../../../../src/assets/about/desktop/illustration-canada.svg';
 import australiaImg from '../../../../src/assets/about/desktop/illustration-australia.svg';
 
-export default function HeadquarterSection() {
+export default function HeadquarterSection({id}) {
   return (
-    <section class='flex flex-col gap-16 items-center text-center'>
-      <h3>Our Headquarters</h3>
+    <section class='text-center'>
+      <h2 class='m-0 font-serif text-black/50'>Our Headquarters</h2>
       <HeadquarterArticle
         imgPath={ukImg}
         location='United Kingdom'

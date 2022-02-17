@@ -17,6 +17,10 @@ main {
   @apply flex flex-col gap-32 my-4 prose;
 
   section {
-    @apply flex flex-col gap-12 items-center px-4 py-28 text-center;
+    @apply flex flex-col gap-10 items-center px-4 prose;
+
+    article {
+      @apply flex flex-col gap-5 items-center prose;
+    }
   }
 }

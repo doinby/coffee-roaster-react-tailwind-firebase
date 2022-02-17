@@ -2,17 +2,20 @@ import React from 'react';
 
 export default function HeadquarterArticle({imgPath, location, address}) {
   return (
-    <div
+    <article
       className='headquarter-article'
-      class='flex flex-col gap-8 items-center'
+      // class='flex flex-col gap-8 items-center'
+      class='py-10 text-center'
     >
       <img src={imgPath} alt={location} />
-      <h4>{location}</h4>
-      <address>
+      <h3 class='m-0 font-serif text-3xl text-black/90'>{location}</h3>
+      <address class='flex flex-col gap-2'>
         {address.map((info) => (
-          <p key={info}>{info}</p>
+          <p key={info} class='m-0 not-italic text-lg text-black/80'>
+            {info}
+          </p>
         ))}
       </address>
-    </div>
+    </article>
   );
 }

@@ -1,10 +1,12 @@
 import React from 'react';
+
+// Components
 import HowArticle from './HowArticle';
 
 export default function HowSection({id}) {
   return (
-    <section id={id} class='flex flex-col gap-8 items-center text-center'>
-      <h3>How it works</h3>
+    <section id={id} class='text-centxer'>
+      <h2 class='m-0 font-serif text-black/50'>How it works</h2>
       <HowArticle
         title='01'
         subTitle='Pick your coffee'
@@ -24,7 +26,9 @@ export default function HowSection({id}) {
         description='We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning 
   world-class coffees curated to provide a distinct tasting experience.'
       />
-      <button class='py-2 px-4 rounded-md bg-dark-cyan text-white'>
+      <button
+        class={`py-4 px-8 rounded-md bg-dark-cyan font-serif text-lg text-white`}
+      >
         Create your plan
       </button>
     </section>

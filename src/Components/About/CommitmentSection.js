@@ -4,10 +4,10 @@ import commitmentImg from '../../../src/assets/about/mobile/image-commitment.jpg
 
 export default function CommitmentSection() {
   return (
-    <section class='flex flex-col gap-8 items-center'>
-      <img src={commitmentImg} alt='Our Commitment' />
-      <h3>Our commitment</h3>
-      <p>
+    <section class='text-center'>
+      <img src={commitmentImg} class='m-0 rounded-lg' alt='Our Commitment' />
+      <h1 class='m-0 font-serif'>Our commitment</h1>
+      <p class='m-0 text-black/80'>
         We’re built on a simple mission and a commitment to doing good along the
         way. We want to make it easy for you to discover and brew the world’s
         best coffee at home. It all starts at the source. To locate the specific
