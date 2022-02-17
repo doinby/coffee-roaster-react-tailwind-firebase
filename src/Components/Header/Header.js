@@ -45,7 +45,7 @@ export default function Header() {
       <nav id='for-non-mobile' class='hidden sm:flex sm:gap-4 md:gap-8'>
         <MenuItemLink linkTo='/' content='Home' />
         <MenuItemLink linkTo='/about' content='About us' />
-        <MenuItemLink linkTo='/createYourPlan' content='Create your plan' />
+        <MenuItemLink linkTo='/create-your-plan' content='Create your plan' />
       </nav>
     </header>
   );

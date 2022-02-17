@@ -1,11 +1,13 @@
 import React from 'react';
 
-export default function MenuItemLink({content}) {
+import {Link} from 'react-router-dom';
+
+export default function MenuItemLink({content, to}) {
   return (
-    <li>
+    <Link to={to}>
       <button role='link' class='text-xs text-white/50 uppercase'>
         {content}
       </button>
-    </li>
+    </Link>
   );
 }

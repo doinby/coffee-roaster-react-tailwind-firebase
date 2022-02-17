@@ -1,11 +1,9 @@
 import React from 'react';
 
-export default function SocialMediaItem({icon, content}) {
+export default function SocialMediaItem({icon, path, content}) {
   return (
-    <li>
-      <button>
-        <img src={icon} alt={content} />
-      </button>
-    </li>
+    <a role='link' href={path} target='_blank'>
+      <img src={icon} alt={content} />
+    </a>
   );
 }
