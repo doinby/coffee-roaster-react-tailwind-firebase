@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Components
-import HeroSection from '../Components/shared/HeroSection.js';
+import HeroSection from '../Components/Shared/HeroSection.js';
 import CommitmentSection from '../Components/About/CommitmentSection.js';
 import HeadquarterSection from '../Components/About/HeadquarterSection/HeadquarterSection.js';
 import QualitySection from '../Components/About/QualitySection.js';

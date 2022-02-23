@@ -5,22 +5,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400&family=Fraunces:wght@900&display=swap');
 
-/* ===GLOBAL=== */
+@layer components {
+  /* ===GLOBAL=== */
 
-body {
-  @apply bg-white;
-}
+  body {
+    @apply bg-white;
+  }
 
-/* ===LAYOUT=== */
+  /* ===LAYOUT=== */
 
-main {
-  @apply flex flex-col gap-32 my-4 prose;
+  main {
+    @apply flex flex-col gap-32 my-4 prose;
 
-  section {
-    @apply flex flex-col gap-10 items-center px-4 prose;
+    section {
+      @apply flex flex-col gap-10 items-center px-4 prose;
 
-    article {
-      @apply flex flex-col gap-5 items-center prose;
+      article {
+        @apply flex flex-col gap-5 items-center prose;
+      }
     }
   }
 }

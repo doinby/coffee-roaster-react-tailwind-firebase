@@ -38,7 +38,7 @@ export default function Header() {
       >
         <MenuItemLink linkTo='/' content='Home' />
         <MenuItemLink linkTo='/about' content='About us' />
-        <MenuItemLink linkTo='/createYourPlan' content='Create your plan' />
+        <MenuItemLink linkTo='/create-your-plan' content='Create your plan' />
       </nav>
 
       {/* Ipad Screen & Up */}

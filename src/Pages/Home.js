@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Components
-import HeroSection from '../Components/shared/HeroSection';
+import HeroSection from '../Components/Shared/HeroSection';
 import CollectionSection from '../Components/Home/CollectionSection/CollectionSection';
 import WhyUsSection from '../Components/Home/WhyUsSection/WhyUsSection';
 import HowSection from '../Components/Home/HowSection/HowSection';

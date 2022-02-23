@@ -27,12 +27,19 @@ module.exports = {
       }),
 
       backgroundImage: {
+        // Home Page
         'home-hero-default':
           "url('../src/assets/home/mobile/image-hero-coffeepress.jpg')",
+
+        // About Page
         'about-hero-default':
           "url('../src/assets/about/mobile/image-hero-whitecup.jpg')",
         'about-quality-default':
           "url('../src/assets/about/mobile/bg-quality.png')",
+
+        // Subscribe Page
+        'subscribe-hero-default':
+          "url('../src/assets/subscribe/desktop/image-hero-blackcup.jpg')",
       },
     },
   },

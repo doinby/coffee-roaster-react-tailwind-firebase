@@ -1,5 +1,18 @@
 import React from 'react';
 
+import HeroSection from '../../src/Components/Shared/HeroSection.js';
+
 export default function Subscribe() {
-  return <section>Create your plan</section>;
+  return (
+    <main>
+      <HeroSection
+        id='hero'
+        title='Create a plan'
+        description='Build a subscription plan that best fits your needs. We offer an assortment of the best 
+  artisan coffees from around the globe delivered fresh to your door.'
+        background='bg-subscribe-hero-default'
+        isBtnHidden={true}
+      />
+    </main>
+  );
 }
