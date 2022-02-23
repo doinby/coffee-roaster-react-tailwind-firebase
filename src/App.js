@@ -5,6 +5,7 @@ import {Routes, Route} from 'react-router-dom';
 // Pages
 import Home from './Pages/Home';
 import About from './Pages/About';
+import Subscribe from './Pages/Subscribe';
 
 // Components
 import Header from './Components/Header/Header';
@@ -23,6 +24,7 @@ export default function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+        <Route path='/create-your-plan' element={<Subscribe />} />
       </Routes>
       <Footer />
     </div>
