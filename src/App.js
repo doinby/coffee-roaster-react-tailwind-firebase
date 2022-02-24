@@ -15,8 +15,8 @@ import Footer from './Components/Footer/Footer';
 import '../src/index.scss';
 
 export default function App() {
-  const baseCss = 'container mx-auto';
-  const smUpCss = 'sm:px-4 sm:py-6';
+  // const baseCss = 'container mx-auto';
+  // const smUpCss = 'sm:px-4 sm:py-6';
 
   return (
     // <div class={`${baseCss} flex flex-col gap-4 ${smUpCss}`}>
