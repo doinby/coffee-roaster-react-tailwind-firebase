@@ -5,7 +5,7 @@ import StepArticle from './HowArticle';
 
 export default function HowSection({id}) {
   return (
-    <section id={id} class='relative mx-0 px-8 py-16 bg-black'>
+    <section id={id} class='relative mx-0 px-8 py-16 rounded-lg bg-black'>
       <StepArticle
         subTitle='01'
         title='Pick your coffee'

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import HeroSection from '../../src/Components/Shared/HeroSection.js';
-import HowSection from '../Components/Home/HowSection/HowSection.js';
+import HowSection from '../Components/Subscribe/HowSection.js';
 
 export default function Subscribe() {
   return (
