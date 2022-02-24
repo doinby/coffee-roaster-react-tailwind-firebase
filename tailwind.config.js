@@ -17,14 +17,9 @@ module.exports = {
       'light-cream': '#FEFCF7',
     },
     extend: {
-      typography: (theme) => ({
-        DEFAULT: {
-          css: {
-            // color: theme('colors.gray.800'),
-            // ...
-          },
-        },
-      }),
+      spacing: {
+        'default-margin-x': '1.5rem',
+      },
 
       backgroundImage: {
         // Home Page
@@ -39,7 +34,9 @@ module.exports = {
 
         // Subscribe Page
         'subscribe-hero-default':
-          "url('../src/assets/subscribe/desktop/image-hero-blackcup.jpg')",
+          "url('../src/assets/subscribe/mobile/image-hero-blackcup.jpg')",
+
+        // Shared between pages
       },
     },
   },
