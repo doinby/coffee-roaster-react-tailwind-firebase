@@ -2,6 +2,7 @@ import React from 'react';
 
 import HeroSection from '../../src/Components/Shared/HeroSection.js';
 import HowSection from '../Components/Subscribe/HowSection.js';
+import SelectOrderSection from '../Components/Subscribe/SelectOrderSection.js';
 
 export default function Subscribe() {
   return (
@@ -16,6 +17,8 @@ export default function Subscribe() {
       />
 
       <HowSection id='how-it-works' />
+
+      <SelectOrderSection id='select-order-option' />
     </main>
   );
 }
