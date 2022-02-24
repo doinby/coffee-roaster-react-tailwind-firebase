@@ -19,7 +19,8 @@ export default function App() {
   const smUpCss = 'sm:px-4 sm:py-6';
 
   return (
-    <div class={`${baseCss} flex flex-col gap-4 ${smUpCss}`}>
+    // <div class={`${baseCss} flex flex-col gap-4 ${smUpCss}`}>
+    <>
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -27,6 +28,6 @@ export default function App() {
         <Route path='/create-your-plan' element={<Subscribe />} />
       </Routes>
       <Footer />
-    </div>
+    </>
   );
 }

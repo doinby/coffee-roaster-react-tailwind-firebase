@@ -9,10 +9,13 @@
   /* ===GLOBAL=== */
 
   body {
-    @apply my-6 bg-white;
+    @apply bg-white;
   }
 
   /* ===LAYOUT=== */
+  #root {
+    @apply container mx-auto space-y-6;
+  }
 
   header,
   footer {
