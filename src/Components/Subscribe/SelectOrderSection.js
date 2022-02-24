@@ -27,7 +27,9 @@ export default function SelectOrderSection({id}) {
 
   function handleClick(e) {
     e.preventDefault();
-    console.log(parseInt(e.target.title));
+
+    // Get button element ONLY and not its children
+    console.log(e.currentTarget.id);
   }
 
   return (

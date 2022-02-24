@@ -11,16 +11,12 @@ export default function SelectOrderArticle({title, btnData, onClick}) {
           return (
             <button
               key={btnTitle}
-              title={index}
+              id={index}
               class='px-6 py-8 space-y-2 rounded-lg bg-grey/10 text-left'
               onClick={onClick}
             >
-              <h2 title={index} class='m-0 font-serif'>
-                {btnTitle}
-              </h2>
-              <p title={index} class='m-0'>
-                {btnContent}
-              </p>
+              <h2 class='m-0 font-serif'>{btnTitle}</h2>
+              <p class='m-0'>{btnContent}</p>
             </button>
           );
         })}
