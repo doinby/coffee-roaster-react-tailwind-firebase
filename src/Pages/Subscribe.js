@@ -1,6 +1,7 @@
 import React from 'react';
 
 import HeroSection from '../../src/Components/Shared/HeroSection.js';
+import HowSection from '../Components/Home/HowSection/HowSection.js';
 
 export default function Subscribe() {
   return (
@@ -13,7 +14,8 @@ export default function Subscribe() {
         background='bg-subscribe-hero-default'
         isBtnHidden={true}
       />
-      dsadsadsa
+
+      <HowSection id='how-it-works' />
     </main>
   );
 }
