@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import DaisyUICollapse_RemoveAtBuild from './DaisyUICollapse_RemoveAtBuild';
 
 // Components
 import SelectOrderArticle from './SelectOrderArticle';
@@ -15,7 +16,7 @@ export default function SelectOrderSection({id}) {
   const [selectedGrind, setSelectedGrind] = useState();
 
   // Coffee Types Article
-  const coffeeTypeTitle = ' What type of coffee?';
+  const coffeeTypeTitle = 'What type of coffee?';
   const coffeeTypeList = {
     SingleOrigin:
       'Distinct, high quality coffee from a specific family-owned farm',
@@ -26,10 +27,9 @@ export default function SelectOrderSection({id}) {
   const [selectedType, setSelectedType] = useState();
 
   function handleClick(e) {
-    e.preventDefault();
-
+    // e.preventDefault();
     // Get button element ONLY and not its children
-    console.log(e.currentTarget.id);
+    // console.log(e.currentTarget.id);
   }
 
   return (
@@ -38,6 +38,12 @@ export default function SelectOrderSection({id}) {
         name='Grind Options'
         title={grindOptionTitle}
         btnData={Object.entries(grindList)}
+        onClick={handleClick}
+      />
+      <SelectOrderArticle
+        name='Coffee Types'
+        title={coffeeTypeTitle}
+        btnData={Object.entries(coffeeTypeList)}
         onClick={handleClick}
       />
     </section>

@@ -31,6 +31,12 @@
 
       article {
         @apply flex flex-col gap-5 items-center prose;
+
+        .collapse,
+        .collapse-title,
+        .collapse-content {
+          background: none !important;
+        }
       }
     }
   }
